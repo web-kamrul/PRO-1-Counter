@@ -1,0 +1,28 @@
+h1 {
+    border: 2px double rgb(230, 230, 230);
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eee;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.btn {
+    border-radius: 0;
+}
+.inner {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 300px;
+    padding: 60px 20px;
+    transition: .5s;
+    border-radius: 4px;
+}
+.inner:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
